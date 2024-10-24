@@ -1,4 +1,4 @@
-## I love peanut butter and Jam on hard crispy bread
+## Hard crispy bread
 ![Quote](https://github-readme-quotes-bay.vercel.app/quote?theme=blood&animation=default&layout=default&font=Architect&fontColor=blue&bgColor=salmon)
 <!--
 **123rand456/123rand456** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
