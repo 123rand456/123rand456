@@ -3,7 +3,7 @@
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/123rand456/123rand456/snake.yml?label=Snake&style=flat-square)](https://github.com/123rand456/123rand456/actions/workflows/snake.yml)
 
 画蛇添足 🐍  
-Available as [GIF](https://raw.githubusercontent.com/123rand456/123rand456/output/dist/github-contribution-grid-snake.gif) or [SVG](https://raw.githubusercontent.com/123rand456/123rand456/output/dist/github-contribution-grid-snake.svg)
+Available as [GIF](https://raw.githubusercontent.com/123rand456/123rand456/output/github-contribution-grid-snake.gif) or [SVG](https://raw.githubusercontent.com/123rand456/123rand456/output/github-contribution-grid-snake.svg)
 
 <!-- Snake Animation -->
 <picture>
@@ -17,7 +17,7 @@ Available as [GIF](https://raw.githubusercontent.com/123rand456/123rand456/outpu
   />
   <img
     alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/123rand456/123rand456/output/github-contribution-grid-snake.gif"
+    src="https://raw.githubusercontent.com/123rand456/123rand456/output/ocean.gif"
   />
 </picture>
 
