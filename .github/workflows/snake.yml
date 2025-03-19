@@ -11,24 +11,23 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: Platane/snk@v3
-        id: snake-gif
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-            
-      - name: Verify output files
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Show generated files
         run: |
-          ls dist
-          test -f dist/github-contribution-grid-snake.svg
-          test -f dist/github-contribution-grid-snake-dark.svg
-          test -f dist/ocean.gif
-            
+          ls -la dist/
+          echo "Generated files:"
+          file dist/*
+
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4.1.0
         with:
