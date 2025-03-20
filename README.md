@@ -29,7 +29,7 @@ jgs '-'                        /     \
     />
     <img
       alt="github contribution grid snake animation"
-      src="https://raw.githubusercontent.com/123rand456/123rand456/output/ocean.gif"
+      src="https://raw.githubusercontent.com/123rand456/123rand456/output/github-contribution-grid-snake.gif"
     />
   </picture>
 </p>
