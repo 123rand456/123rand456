@@ -28,9 +28,17 @@ jobs:
 
       - name: Show generated files
         run: |
+          echo "Generated files in dist directory:"
           ls -la dist/
-          echo "Generated files:"
-          file dist/*
+          echo "-----------------------------------"
+          echo "File details:"
+          file dist/* || echo "No files found"
+          echo "-----------------------------------"
+          echo "File sizes:"
+          du -h dist/* || echo "No files found"
+          echo "-----------------------------------"
+          echo "SVG content preview (first 20 lines):"
+          head -n 20 dist/github-contribution-grid-snake.svg || echo "SVG file not found or empty"
 
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4.1.0
